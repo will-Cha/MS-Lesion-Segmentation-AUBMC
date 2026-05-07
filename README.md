@@ -3,7 +3,7 @@
 This repository contains the code, models, and results for my VIP Project focused on segmenting new Multiple Sclerosis (MS) lesions from longitudinal T1/FLAIR MRI scans using a clinical cohort from the American University of Beirut Medical Center (AUBMC).
 
 ## Project Overview
-Due to hardware constraints that made full 3D nnU-Net training impossible, this project utilizes a **2D Triplanar U-Net (ResNet-34)** architecture. 
+This project utilizes a **2D Triplanar U-Net (ResNet-34)** architecture. 
 
 The project demonstrates that under strict data constraints (n=40 training patients), architectural brute force (like 2.5D context or Attention gates) leads to data starvation. Instead, a **Tier 1 Task-Aware Refactoring** yields a massive +6.00% absolute Dice improvement.
 
